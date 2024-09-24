@@ -1,0 +1,114 @@
+import React from 'react';
+import './App.css'; // Caso queira usar um arquivo CSS externo, você pode criar e importar o estilo
+
+function App() {
+  return (
+    <div>
+      <header style={styles.header}>
+        <h1 style={styles.headerTitle}>FitForma - Receitas e Planos de Treino</h1>
+      </header>
+
+      <div style={styles.container}>
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Preço Único de R$ 29,90 - Receitas</p>
+          <a href="https://pay.kirvano.com/82144c26-f145-420a-aa33-ae0f7a62f97c?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Preço Único de R$ 37,00 - Receitas + Treino Personalizado</p>
+          <a href="https://pay.kirvano.com/d7b50be9-26a9-4e2f-a36e-bf5a2dc23ac8?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Preço Único de R$ 47,00 - Receitas + Treino Personalizado a cada 6 meses</p>
+          <a href="https://pay.kirvano.com/3bfa8f25-f7f6-42d2-ae29-feca7294d078?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Plano 3 + Treino Personalizado a cada 3 meses</p>
+          <a href="https://pay.kirvano.com/2b4da7ee-fa78-4b1d-aef7-3eae2dd78cbc?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Plano 4 + Treino Personalizado a cada 2 meses + Brinde</p>
+          <a href="https://pay.kirvano.com/a2fcf566-a5c1-4dd2-af37-63a328230868?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+
+        <div style={styles.linkCard}>
+          <p style={styles.cardText}>Plano 5 + Brinde + Whey</p>
+          <a href="https://pay.kirvano.com/65c5e2a4-1957-4937-be95-a6e8901145c0?aff=4d0a142b-8140-4f2f-97d8-d3f91dc9fa12">
+            <button style={styles.button}>Comprar Agora</button>
+          </a>
+        </div>
+      </div>
+
+      <footer style={styles.footer}>
+        &copy; 2024 FitForma - Receitas para Emagrecer
+      </footer>
+    </div>
+  );
+}
+
+const styles = {
+  header: {
+    backgroundColor: '#222',
+    padding: '20px',
+    textAlign: 'center',
+    width: '100%',
+  },
+  headerTitle: {
+    color: '#FFD700',
+    margin: 0,
+  },
+  container: {
+    maxWidth: '800px',
+    padding: '20px',
+    textAlign: 'center',
+    margin: '0 auto',
+  },
+  linkCard: {
+    backgroundColor: '#333',
+    margin: '20px 0',
+    padding: '20px',
+    borderRadius: '8px',
+    border: '1px solid #FFD700',
+  },
+  cardText: {
+    color: '#FFD700',
+  },
+  button: {
+    backgroundColor: '#32CD32',
+    color: '#000',
+    padding: '10px 20px',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontSize: '16px',
+  },
+  footer: {
+    backgroundColor: '#222',
+    color: '#fff',
+    padding: '10px',
+    width: '100%',
+    textAlign: 'center',
+    position: 'fixed',
+    bottom: 0,
+  },
+};
+
+export default App;
+
+        &copy; 2024 FitForma - Receitas para Emagrecer
+    </footer>
+</body>
+</html>
